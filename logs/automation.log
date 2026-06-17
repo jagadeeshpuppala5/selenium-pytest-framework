@@ -1,0 +1,190 @@
+2026-06-17 17:40:02,928 - INFO - Starting Valid Login Test
+2026-06-17 17:40:04,068 - INFO - Entering valid credentials
+2026-06-17 17:40:04,069 - INFO - Entering Username : standard_user
+2026-06-17 17:40:04,393 - INFO - Entering Password
+2026-06-17 17:40:04,548 - INFO - Clicking Login Button
+2026-06-17 17:40:04,797 - INFO - Verifying successful login
+2026-06-17 17:40:04,809 - INFO - Valid Login Test Passed
+2026-06-17 17:40:09,282 - INFO - Starting Invalid Login Test
+2026-06-17 17:40:10,145 - INFO - Entering invalid credentials
+2026-06-17 17:40:10,145 - INFO - Entering Username : wrong_user
+2026-06-17 17:40:10,483 - INFO - Entering Password
+2026-06-17 17:40:10,639 - INFO - Clicking Login Button
+2026-06-17 17:40:10,768 - INFO - Verifying error message
+2026-06-17 17:40:10,803 - INFO - Invalid Login Test Passed
+2026-06-17 17:40:14,890 - INFO - Starting Blank Username Test
+2026-06-17 17:40:15,225 - INFO - Entering Username : 
+2026-06-17 17:40:16,209 - INFO - Entering Password
+2026-06-17 17:40:16,388 - INFO - Clicking Login Button
+2026-06-17 17:40:16,509 - INFO - Verifying username required error
+2026-06-17 17:40:16,542 - INFO - Blank Username Test Passed
+2026-06-17 17:40:21,071 - INFO - Starting Blank Password Test
+2026-06-17 17:40:22,118 - INFO - Entering Username : standard_user
+2026-06-17 17:40:22,435 - INFO - Entering Password
+2026-06-17 17:40:22,550 - INFO - Clicking Login Button
+2026-06-17 17:40:22,667 - INFO - Verifying password required error
+2026-06-17 17:40:22,708 - INFO - Blank Password Test Passed
+2026-06-17 17:52:51,470 - INFO - Entering Username : standard_user
+2026-06-17 17:52:51,757 - INFO - Entering Password
+2026-06-17 17:52:51,901 - INFO - Clicking Login Button
+2026-06-17 17:52:57,391 - INFO - Entering Username : standard_user
+2026-06-17 17:52:57,787 - INFO - Entering Password
+2026-06-17 17:52:57,988 - INFO - Clicking Login Button
+2026-06-17 17:54:48,130 - INFO - Entering Username : standard_user
+2026-06-17 17:54:48,413 - INFO - Entering Password
+2026-06-17 17:54:48,597 - INFO - Clicking Login Button
+2026-06-17 17:54:54,204 - INFO - Entering Username : standard_user
+2026-06-17 17:54:54,572 - INFO - Entering Password
+2026-06-17 17:54:54,749 - INFO - Clicking Login Button
+2026-06-17 17:55:41,394 - INFO - Entering Username : standard_user
+2026-06-17 17:55:42,321 - INFO - Entering Password
+2026-06-17 17:55:42,457 - INFO - Clicking Login Button
+2026-06-17 17:55:47,374 - INFO - Entering Username : standard_user
+2026-06-17 17:55:48,356 - INFO - Entering Password
+2026-06-17 17:55:48,529 - INFO - Clicking Login Button
+2026-06-17 18:00:02,262 - INFO - Entering Username : standard_user
+2026-06-17 18:00:03,213 - INFO - Entering Password
+2026-06-17 18:00:03,395 - INFO - Clicking Login Button
+2026-06-17 18:00:08,482 - INFO - Entering Username : standard_user
+2026-06-17 18:00:09,460 - INFO - Entering Password
+2026-06-17 18:00:09,655 - INFO - Clicking Login Button
+2026-06-17 18:04:06,720 - INFO - Entering Username : standard_user
+2026-06-17 18:04:07,029 - INFO - Entering Password
+2026-06-17 18:04:07,179 - INFO - Clicking Login Button
+2026-06-17 18:04:13,141 - INFO - Entering Username : standard_user
+2026-06-17 18:04:13,591 - INFO - Entering Password
+2026-06-17 18:04:13,743 - INFO - Clicking Login Button
+2026-06-17 18:07:35,066 - INFO - Entering Username : standard_user
+2026-06-17 18:07:35,468 - INFO - Entering Password
+2026-06-17 18:07:35,611 - INFO - Clicking Login Button
+2026-06-17 18:07:41,110 - INFO - Entering Username : standard_user
+2026-06-17 18:07:41,451 - INFO - Entering Password
+2026-06-17 18:07:41,597 - INFO - Clicking Login Button
+2026-06-17 18:09:31,045 - INFO - Entering Username : standard_user
+2026-06-17 18:09:32,044 - INFO - Entering Password
+2026-06-17 18:09:32,211 - INFO - Clicking Login Button
+2026-06-17 18:09:37,560 - INFO - Entering Username : standard_user
+2026-06-17 18:09:37,922 - INFO - Entering Password
+2026-06-17 18:09:38,154 - INFO - Clicking Login Button
+2026-06-17 18:13:53,366 - INFO - Entering Username : standard_user
+2026-06-17 18:13:55,314 - INFO - Entering Password
+2026-06-17 18:13:55,460 - INFO - Clicking Login Button
+2026-06-17 18:14:01,226 - INFO - Entering Username : standard_user
+2026-06-17 18:14:01,478 - INFO - Entering Password
+2026-06-17 18:14:01,648 - INFO - Clicking Login Button
+2026-06-17 19:13:51,218 - INFO - Entering Username : standard_user
+2026-06-17 19:13:51,473 - INFO - Entering Password
+2026-06-17 19:13:51,634 - INFO - Clicking Login Button
+2026-06-17 19:13:57,731 - INFO - Entering Username : standard_user
+2026-06-17 19:13:58,131 - INFO - Entering Password
+2026-06-17 19:13:58,278 - INFO - Clicking Login Button
+2026-06-17 19:19:34,242 - INFO - Entering Username : standard_user
+2026-06-17 19:19:34,485 - INFO - Entering Password
+2026-06-17 19:19:34,634 - INFO - Clicking Login Button
+2026-06-17 19:19:40,214 - INFO - Entering Username : standard_user
+2026-06-17 19:19:40,642 - INFO - Entering Password
+2026-06-17 19:19:40,824 - INFO - Clicking Login Button
+2026-06-17 19:24:33,545 - INFO - Entering Username : standard_user
+2026-06-17 19:24:33,962 - INFO - Entering Password
+2026-06-17 19:24:34,173 - INFO - Clicking Login Button
+2026-06-17 19:24:34,788 - INFO - Entering checkout details
+2026-06-17 19:24:35,423 - INFO - Clicking Continue Button
+2026-06-17 19:24:35,626 - INFO - Clicking Finish Button
+2026-06-17 19:31:03,446 - INFO - Starting Valid Login Test
+2026-06-17 19:31:04,194 - INFO - Entering valid credentials
+2026-06-17 19:31:04,195 - INFO - Entering Username : standard_user
+2026-06-17 19:31:04,567 - INFO - Entering Password
+2026-06-17 19:31:04,713 - INFO - Clicking Login Button
+2026-06-17 19:31:04,918 - INFO - Verifying successful login
+2026-06-17 19:31:04,945 - INFO - Valid Login Test Passed
+2026-06-17 19:31:16,057 - INFO - Starting Valid Login Test
+2026-06-17 19:31:16,507 - INFO - Entering valid credentials
+2026-06-17 19:31:16,508 - INFO - Entering Username : standard_user
+2026-06-17 19:31:17,436 - INFO - Entering Password
+2026-06-17 19:31:17,600 - INFO - Clicking Login Button
+2026-06-17 19:31:17,824 - INFO - Verifying successful login
+2026-06-17 19:31:17,838 - INFO - Valid Login Test Passed
+2026-06-17 19:31:27,393 - INFO - Entering Username : standard_user
+2026-06-17 19:31:27,702 - INFO - Entering Password
+2026-06-17 19:31:27,853 - INFO - Clicking Login Button
+2026-06-17 19:34:46,132 - INFO - Entering Username : standard_user
+2026-06-17 19:34:46,407 - INFO - Entering Password
+2026-06-17 19:34:46,568 - INFO - Clicking Login Button
+2026-06-17 19:46:11,308 - INFO - Entering Username : standard_user
+2026-06-17 19:46:11,623 - INFO - Entering Password
+2026-06-17 19:46:11,867 - INFO - Clicking Login Button
+2026-06-17 19:46:27,441 - INFO - Entering Username : standard_user
+2026-06-17 19:46:28,419 - INFO - Entering Password
+2026-06-17 19:46:28,572 - INFO - Clicking Login Button
+2026-06-17 19:46:33,238 - INFO - Starting Valid Login Test
+2026-06-17 19:46:34,107 - INFO - Entering valid credentials
+2026-06-17 19:46:34,108 - INFO - Entering Username : standard_user
+2026-06-17 19:46:34,542 - INFO - Entering Password
+2026-06-17 19:46:34,706 - INFO - Clicking Login Button
+2026-06-17 19:46:34,934 - INFO - Verifying successful login
+2026-06-17 19:46:34,947 - INFO - Valid Login Test Passed
+2026-06-17 19:47:02,857 - INFO - Entering Username : standard_user
+2026-06-17 19:47:03,303 - INFO - Entering Password
+2026-06-17 19:47:03,531 - INFO - Clicking Login Button
+2026-06-17 19:47:10,687 - INFO - Entering Username : standard_user
+2026-06-17 19:47:11,103 - INFO - Entering Password
+2026-06-17 19:47:11,253 - INFO - Clicking Login Button
+2026-06-17 19:47:29,299 - INFO - Entering Username : standard_user
+2026-06-17 19:47:29,595 - INFO - Entering Password
+2026-06-17 19:47:29,750 - INFO - Clicking Login Button
+2026-06-17 19:47:36,390 - INFO - Entering Username : standard_user
+2026-06-17 19:47:36,779 - INFO - Entering Password
+2026-06-17 19:47:36,918 - INFO - Clicking Login Button
+2026-06-17 19:47:43,791 - INFO - Entering Username : standard_user
+2026-06-17 19:47:44,152 - INFO - Entering Password
+2026-06-17 19:47:44,291 - INFO - Clicking Login Button
+2026-06-17 19:47:57,192 - INFO - Starting Valid Login Test
+2026-06-17 19:47:58,087 - INFO - Entering valid credentials
+2026-06-17 19:47:58,087 - INFO - Entering Username : standard_user
+2026-06-17 19:47:58,355 - INFO - Entering Password
+2026-06-17 19:47:58,506 - INFO - Clicking Login Button
+2026-06-17 19:47:58,723 - INFO - Verifying successful login
+2026-06-17 19:47:58,732 - INFO - Valid Login Test Passed
+2026-06-17 19:48:04,268 - INFO - Starting Invalid Login Test
+2026-06-17 19:48:05,155 - INFO - Entering invalid credentials
+2026-06-17 19:48:05,157 - INFO - Entering Username : wrong_user
+2026-06-17 19:48:05,560 - INFO - Entering Password
+2026-06-17 19:48:05,761 - INFO - Clicking Login Button
+2026-06-17 19:48:05,906 - INFO - Verifying error message
+2026-06-17 19:48:05,947 - INFO - Invalid Login Test Passed
+2026-06-17 19:48:11,507 - INFO - Starting Blank Username Test
+2026-06-17 19:48:12,288 - INFO - Entering Username : 
+2026-06-17 19:48:12,665 - INFO - Entering Password
+2026-06-17 19:48:12,823 - INFO - Clicking Login Button
+2026-06-17 19:48:12,959 - INFO - Verifying username required error
+2026-06-17 19:48:13,003 - INFO - Blank Username Test Passed
+2026-06-17 19:48:18,790 - INFO - Starting Blank Password Test
+2026-06-17 19:48:19,018 - INFO - Entering Username : standard_user
+2026-06-17 19:48:20,116 - INFO - Entering Password
+2026-06-17 19:48:20,225 - INFO - Clicking Login Button
+2026-06-17 19:48:20,327 - INFO - Verifying password required error
+2026-06-17 19:48:20,363 - INFO - Blank Password Test Passed
+2026-06-17 19:56:13,847 - INFO - Entering Username : standard_user
+2026-06-17 19:56:14,198 - INFO - Entering Password
+2026-06-17 19:56:14,396 - INFO - Clicking Login Button
+2026-06-17 19:56:21,963 - INFO - Entering Username : standard_user
+2026-06-17 19:56:22,261 - INFO - Entering Password
+2026-06-17 19:56:22,448 - INFO - Clicking Login Button
+2026-06-17 19:57:41,438 - INFO - Entering Username : standard_user
+2026-06-17 19:57:42,678 - INFO - Entering Password
+2026-06-17 19:57:42,886 - INFO - Clicking Login Button
+2026-06-17 19:57:50,988 - INFO - Entering Username : standard_user
+2026-06-17 19:57:51,327 - INFO - Entering Password
+2026-06-17 19:57:51,481 - INFO - Clicking Login Button
+2026-06-17 20:03:44,211 - INFO - Entering Username : standard_user
+2026-06-17 20:03:44,456 - INFO - Entering Password
+2026-06-17 20:03:44,636 - INFO - Clicking Login Button
+2026-06-17 20:03:51,453 - INFO - Entering Username : standard_user
+2026-06-17 20:03:51,873 - INFO - Entering Password
+2026-06-17 20:03:52,032 - INFO - Clicking Login Button
+2026-06-17 20:07:38,902 - INFO - Entering Username : standard_user
+2026-06-17 20:07:39,148 - INFO - Entering Password
+2026-06-17 20:07:39,333 - INFO - Clicking Login Button
+2026-06-17 20:07:46,351 - INFO - Entering Username : standard_user
+2026-06-17 20:07:46,747 - INFO - Entering Password
+2026-06-17 20:07:46,926 - INFO - Clicking Login Button
