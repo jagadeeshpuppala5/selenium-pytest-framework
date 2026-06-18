@@ -1,6 +1,0 @@
-[32mINFO    [0m AutomationFramework:test_login.py:80 Starting Blank Password Test
-[32mINFO    [0m AutomationFramework:login_page.py:18 Entering Username : standard_user
-[32mINFO    [0m AutomationFramework:login_page.py:22 Entering Password
-[32mINFO    [0m AutomationFramework:login_page.py:26 Clicking Login Button
-[32mINFO    [0m AutomationFramework:test_login.py:91 Verifying password required error
-[32mINFO    [0m AutomationFramework:test_login.py:95 Blank Password Test Passed

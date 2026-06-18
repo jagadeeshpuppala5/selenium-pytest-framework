@@ -1,6 +1,0 @@
-[32mINFO    [0m AutomationFramework:test_login.py:59 Starting Blank Username Test
-[32mINFO    [0m AutomationFramework:login_page.py:18 Entering Username : 
-[32mINFO    [0m AutomationFramework:login_page.py:22 Entering Password
-[32mINFO    [0m AutomationFramework:login_page.py:26 Clicking Login Button
-[32mINFO    [0m AutomationFramework:test_login.py:70 Verifying username required error
-[32mINFO    [0m AutomationFramework:test_login.py:74 Blank Username Test Passed

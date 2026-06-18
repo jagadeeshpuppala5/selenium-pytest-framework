@@ -1,7 +1,0 @@
-[32mINFO    [0m AutomationFramework:test_login.py:13 Starting Valid Login Test
-[32mINFO    [0m AutomationFramework:test_login.py:19 Entering valid credentials
-[32mINFO    [0m AutomationFramework:login_page.py:18 Entering Username : standard_user
-[32mINFO    [0m AutomationFramework:login_page.py:22 Entering Password
-[32mINFO    [0m AutomationFramework:login_page.py:26 Clicking Login Button
-[32mINFO    [0m AutomationFramework:test_login.py:26 Verifying successful login
-[32mINFO    [0m AutomationFramework:test_login.py:30 Valid Login Test Passed

@@ -1,4 +1,0 @@
-Before Remove Count: 1
-Remove Button Clicked
-Add Button Present: 0
-Cart Count After Remove: 1
