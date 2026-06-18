@@ -31,7 +31,11 @@ class CartPage(BasePage):
         return len(products) > 0
 
     def click_checkout(self):
+        print("Before:", self.driver.current_url)
+
         self.click(self.CHECKOUT_BTN)
+
+        print("After:", self.driver.current_url)
 
     def continue_shopping(self):
         self.click(self.CONTINUE_SHOPPING_BTN)

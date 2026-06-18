@@ -2,24 +2,31 @@
 
 ## Tech Stack
 - Python
-- Selenium
+- Selenium WebDriver
 - Pytest
 - POM
-
-## Features
-- Page Object Model
-- HTML Reports
 - Logging
-- Screenshot Capture
-- Smoke Tests
-- Regression Tests
+- HTML Reports
+- Allure Reports
 
 ## Project Structure
+config/
+data/
+pages/
+tests/
+utilities/
 
-## How To Execute
-
+## Run Tests
 pytest -v
 
-## Generate Report
+## Smoke Tests
+pytest -m smoke
 
-pytest --html=reports/report.html
+## Regression Tests
+pytest -m regression
+
+## Generate HTML Report
+pytest --html=reports/report.html --self-contained-html
+
+## Generate Allure Results
+pytest --alluredir=allure-results

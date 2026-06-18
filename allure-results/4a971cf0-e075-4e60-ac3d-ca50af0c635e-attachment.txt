@@ -1,0 +1,7 @@
+[32mINFO    [0m AutomationFramework:test_login.py:36 Starting Invalid Login Test
+[32mINFO    [0m AutomationFramework:test_login.py:42 Entering invalid credentials
+[32mINFO    [0m AutomationFramework:login_page.py:18 Entering Username : wrong_user
+[32mINFO    [0m AutomationFramework:login_page.py:22 Entering Password
+[32mINFO    [0m AutomationFramework:login_page.py:26 Clicking Login Button
+[32mINFO    [0m AutomationFramework:test_login.py:49 Verifying error message
+[32mINFO    [0m AutomationFramework:test_login.py:53 Invalid Login Test Passed

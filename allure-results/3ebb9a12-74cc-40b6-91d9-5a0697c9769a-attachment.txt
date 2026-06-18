@@ -1,0 +1,3 @@
+[32mINFO    [0m AutomationFramework:login_page.py:18 Entering Username : standard_user
+[32mINFO    [0m AutomationFramework:login_page.py:22 Entering Password
+[32mINFO    [0m AutomationFramework:login_page.py:26 Clicking Login Button

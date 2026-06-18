@@ -38,10 +38,12 @@ def test_complete_checkout(login):
 
     checkout.click_continue()
 
+    assert "checkout-step-two" in login.current_url
+
     checkout.click_finish()
 
     assert (
-        checkout.get_success_message()
-        ==
-        "Thank you for your order!"
+            checkout.get_success_message()
+            ==
+            "Thank you for your order!"
     )
