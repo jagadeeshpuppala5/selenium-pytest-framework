@@ -1,23 +1,41 @@
 import pytest
-from selenium import webdriver
-from config.config import BASE_URL
+
 from pages.login_page import LoginPage
-from data.login_data import VALID_USER, VALID_PASSWORD
+from utilities.driver_factory import DriverFactory
+from config.config import BASE_URL
+from data.login_data import (
+    VALID_USER,
+    VALID_PASSWORD
+)
 
 
-@pytest.fixture
-def driver():
+def pytest_addoption(parser):
 
-    driver = webdriver.Chrome()
+    parser.addoption(
+        "--browser",
+        action="store",
+        default="chrome",
+        help="Browser Name"
+    )
 
-    driver.maximize_window()
+
+@pytest.fixture()
+def driver(request):
+
+    browser = request.config.getoption(
+        "--browser"
+    )
+
+    driver = DriverFactory.get_driver(
+        browser
+    )
 
     yield driver
 
     driver.quit()
 
 
-@pytest.fixture
+@pytest.fixture()
 def login(driver):
 
     driver.get(BASE_URL)
@@ -29,4 +47,4 @@ def login(driver):
         VALID_PASSWORD
     )
 
-    yield driver
+    return driver
