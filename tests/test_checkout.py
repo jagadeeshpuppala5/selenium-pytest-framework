@@ -1,11 +1,5 @@
 import pytest
 
-from data.login_data import (
-    FIRST_NAME,
-    LAST_NAME,
-    POSTAL_CODE
-)
-
 from pages.inventory_page import InventoryPage
 from pages.cart_page import CartPage
 from pages.checkout_page import CheckoutPage
@@ -31,9 +25,9 @@ def test_complete_checkout(login):
     checkout = CheckoutPage(login)
 
     checkout.enter_checkout_details(
-        FIRST_NAME,
-        LAST_NAME,
-        POSTAL_CODE
+        "Jagadeesh",
+        "P",
+        "560001"
     )
 
     checkout.click_continue()
@@ -43,7 +37,7 @@ def test_complete_checkout(login):
     checkout.click_finish()
 
     assert (
-            checkout.get_success_message()
-            ==
-            "Thank you for your order!"
+        checkout.get_success_message()
+        ==
+        "Thank you for your order!"
     )

@@ -12,8 +12,7 @@ def test_add_product_to_cart(login):
 
     assert inventory.get_cart_count() == 1
 
-
-@pytest.mark.xfail(reason="Under Investigation")
+@pytest.mark.regression
 def test_remove_product(login):
 
     inventory = InventoryPage(login)
@@ -24,10 +23,4 @@ def test_remove_product(login):
 
     inventory.remove_product_from_cart()
 
-    print(
-        "Cart Count After Remove:",
-        inventory.get_cart_count()
-    )
-
-    assert inventory.get_cart_count() == 0
     assert inventory.get_cart_count() == 0

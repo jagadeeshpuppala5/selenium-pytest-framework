@@ -37,6 +37,11 @@ class CheckoutPage(BasePage):
         "complete-header"
     )
 
+    ERROR_MSG = (
+        By.CSS_SELECTOR,
+        "h3[data-test='error']"
+    )
+
     def __init__(self, driver):
         super().__init__(driver)
 
@@ -68,7 +73,33 @@ class CheckoutPage(BasePage):
 
         logger.info("Clicking Continue Button")
 
+        print(
+            "First Name:",
+            self.driver.find_element(
+                *self.FIRST_NAME
+            ).get_attribute("value")
+        )
+
+        print(
+            "Last Name:",
+            self.driver.find_element(
+                *self.LAST_NAME
+            ).get_attribute("value")
+        )
+
+        print(
+            "Postal Code:",
+            self.driver.find_element(
+                *self.POSTAL_CODE
+            ).get_attribute("value")
+        )
+
         self.click(self.CONTINUE_BTN)
+
+        print(
+            "Current URL After Continue:",
+            self.driver.current_url
+        )
 
     def click_finish(self):
 
@@ -80,4 +111,10 @@ class CheckoutPage(BasePage):
 
         return self.get_text(
             self.SUCCESS_MSG
+        )
+
+    def get_error_message(self):
+
+        return self.get_text(
+            self.ERROR_MSG
         )

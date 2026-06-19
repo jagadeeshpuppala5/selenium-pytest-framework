@@ -4,7 +4,7 @@ from pages.base_page import BasePage
 
 class CartPage(BasePage):
 
-    PRODUCT_NAME = (
+    CART_ITEM = (
         By.CLASS_NAME,
         "inventory_item_name"
     )
@@ -14,28 +14,33 @@ class CartPage(BasePage):
         "checkout"
     )
 
-    CONTINUE_SHOPPING_BTN = (
-        By.ID,
-        "continue-shopping"
-    )
-
     def __init__(self, driver):
         super().__init__(driver)
 
+    def get_cart_product_name(self):
+
+        return self.driver.find_element(
+            *self.CART_ITEM
+        ).text
+
     def verify_product_in_cart(self):
 
-        products = self.driver.find_elements(
-            *self.PRODUCT_NAME
+        return (
+            self.get_cart_product_name()
+            ==
+            "Sauce Labs Backpack"
         )
 
-        return len(products) > 0
-
     def click_checkout(self):
-        print("Before:", self.driver.current_url)
+
+        print(
+            "Before Checkout Click URL:",
+            self.driver.current_url
+        )
 
         self.click(self.CHECKOUT_BTN)
 
-        print("After:", self.driver.current_url)
-
-    def continue_shopping(self):
-        self.click(self.CONTINUE_SHOPPING_BTN)
+        print(
+            "After Checkout Click URL:",
+            self.driver.current_url
+        )
